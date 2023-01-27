@@ -1,0 +1,28 @@
+.modal-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  #simple-modal-title {
+    margin-top: 0;
+  }
+.modal-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+  
+.modal-body-inner {
+    position: relative;
+    z-index: 1;
+}
+  
+  
+  
+  
+  

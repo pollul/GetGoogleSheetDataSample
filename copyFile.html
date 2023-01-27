@@ -1,5 +1,40 @@
+<!-- <head>
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+        />
+        <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.css"
+        rel="stylesheet"
+        />
+</head> -->
 
-const sheetID = '1NUt36vkRrYxYPRjzqg3JZXIMD552wA78BvV4lID2Nz4';
+<div class="accordion" id="accordionExampleY">
+            <div class="output">
+                <div class="spinner-border" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="visually-hidden">Loading...</span>
+                </div>
+            </div>
+        </div>
+        <div>
+            <table class="table" data-toggle="table">
+                <thead>
+                  <tr>
+                    <th>Column A</th>
+                    <th>Column B</th>
+                    <th>Column C</th>
+                    <th>Column D</th>
+                    <th>Column E</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <!-- Table rows will be added here by jQuery -->
+                </tbody>
+              </table>
+        </div>
+        <br>
+        <script type="text/javascript">
+            const sheetID = '1NUt36vkRrYxYPRjzqg3JZXIMD552wA78BvV4lID2Nz4';
 document.addEventListener('DOMContentLoaded',loadGSheetData(sheetID,'output'));
 
 $(document).ready(function() {
@@ -154,3 +189,8 @@ function readSheet() {
       console.log(response.values);
     });
   }
+        </script>
+        <script
+          type="text/javascript"
+          src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.0.1/mdb.min.js"
+          ></script>
